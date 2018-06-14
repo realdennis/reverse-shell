@@ -38,13 +38,13 @@
   },
   "homepage": "https://github.com/lukechilds/reverse-shell",
   "dependencies": {
-    "micro": "^9.0.0"
+    "micro": "^9.3.2"
   },
   "devDependencies": {
     "ava": "^0.25.0",
-    "coveralls": "^3.0.0",
+    "coveralls": "^3.0.1",
     "eslint-config-xo-lukechilds": "^1.0.0",
-    "nyc": "^11.0.3",
+    "nyc": "^12.0.2",
     "this": "^1.0.2",
     "xo": "^0.20.1"
   }
