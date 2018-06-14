@@ -20,3 +20,11 @@ test('reverseShell returns usage if host and port aren\'t set', t => {
 	const returnValue = reverseShell(req);
 	t.true(returnValue.indexOf('# Reverse Shell as a Service') === 0);
 });
+
+test('reverseShell returns usage if port not set', t => {
+	const req = {
+		url: '/foo'
+	};
+	const returnValue = reverseShell(req);
+	t.true(returnValue.indexOf('# Reverse Shell as a Service') === 0);
+});
